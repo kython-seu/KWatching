@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--checkableBehavior指定为single表示组中的所有菜单项只能单选 -->
+    <group android:checkableBehavior="single">
+        
+        <item
+            android:id="@+id/nav_record_video"
+            android:icon="@drawable/record_video"
+            android:title="Socket推流"/>
+        <item
+            android:id="@+id/nav_watch_video"
+            android:icon="@drawable/watch_video"
+            android:title="观看直播"/>
+        <item
+            android:id="@+id/nav_screen_record"
+            android:icon="@drawable/screen_record"
+            android:title="手机屏幕录播推流"/>
+
+    </group>
+</menu>
